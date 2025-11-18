@@ -250,7 +250,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ℱ, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - LATL
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -315,7 +315,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ℱ, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - LATL
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
