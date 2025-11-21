@@ -82,7 +82,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7                  &kp F8           &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END                 &kp HOME         &kp UP     &kp BSLH          &kp DEL
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END                 &kp HOME         &kp UP     &kp BSLH          &trans
 &trans      &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &mmv MOVE_LEFT   &kp N6           &kp N7                  &kp LEFT         &kp DOWN   &kp RIGHT         &trans
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD         &to MAPLESTORY   &kp FSLH   &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &to DEFAULT      &to GENERAL_GAMES       &trans           &trans     &trans
@@ -97,7 +97,7 @@
         layer_2 {
             bindings = <
 &kp TILDE  &bt BT_SEL 0           &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3           &bt BT_SEL 4    &mmv MOVE_UP     &kp F6          &kp F7          &kp F8               &kp F9       &kp F10      &trans
-&trans     &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PIPE        &mmv MOVE_DOWN   &kp BACKSLASH   &kp PLUS        &kp UNDERSCORE       &kp MINUS    &kp EQUAL    &trans
+&trans     &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp PIPE        &mmv MOVE_DOWN   &kp BACKSLASH   &kp PLUS        &kp UNDERSCORE       &kp MINUS    &kp EQUAL    &kp DEL
 &trans     &kp EXCLAMATION        &kp AT             &kp HASH          &kp DOLLAR             &kp PERCENT     &mmv MOVE_LEFT   &kp CARET       &kp AMPERSAND   &kp ASTERISK         &kp LPAR     &kp RPAR     &kp GRAVE
 &trans     &sys_reset             &out OUT_USB       &out OUT_BLE      &bootloader            &trans          &mmv MOVE_RIGHT  &trans          &trans          &sys_reset           &soft_off    &bootloader  &trans
 &trans     &bt BT_CLR             &bt BT_CLR_ALL     &kp DEL           &trans                 &trans          &mkp LCLK        &trans          &trans          &trans               &trans       &trans
