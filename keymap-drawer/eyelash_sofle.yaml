@@ -251,7 +251,7 @@ layers:
   - {t: Default, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -316,13 +316,13 @@ layers:
   - {t: Default, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - RGUI
 combos:
