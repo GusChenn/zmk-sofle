@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: m165437 # For the gem animation
+      url-base: https://github.com/M165437
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -13,11 +15,14 @@ manifest:
    #   remote: gpeye
    #    revision: main 
     - name: eyelash_sofle
-      url: https://github.com/a741725193/zmk-sofle
+      url: https://github.com/GusChenn/zmk-sofle
       revision: main
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
   self:
     path: boards
